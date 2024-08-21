@@ -2,8 +2,10 @@
 using namespace std;
 
 int main()
-{
-    cout << "Hello World";
+{   
+    char letter;
+    cin >> letter;
+    cout << "Hello World" << letter;
 
     return 0;
 }
